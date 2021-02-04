@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Generate Facts File Automatic</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Generate Facts File Automatic</h1>
+      <form>
+        <button class="Button" id="Button">Generate</button>
+        <input type="radio" id="first" name="fact" value="first" />
+        <label for="first">Having flu!</label>
+        <input type="radio" id="second" name="fact" value="second" />
+        <label for="second">Classification of students Grades</label>
+        <input type="radio" id="third" name="fact" value="third" />
+        <label for="third">Body Weight</label>
+        <input type="radio" id="fifth" name="fact" value="fifth" />
+        <label for="fifth">Military accepted</label>
+        <input type="radio" id="sixth" name="fact" value="sixth" />
+        <label for="sixth">Body Type</label>
+      </form>
+      <p id="errGenerate"></p>
+      <p class="ex">
+        example of fact:
+        <q id="quote">fact(["string", "boolean", "number", "symbol"])</q>
+      </p>
+      <div id="facts"></div>
+      <a class="Button" id="Download">Download File</a>
+      <p id="errDownlaod"></p>
+    </div>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
