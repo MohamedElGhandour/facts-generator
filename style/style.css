@@ -73,7 +73,7 @@ p#errGenerate {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-image: url(https://mohamedelghandour.github.io/Snake/img/profile.png);
+  background-image: url("../img/profile.png");
   border-radius: 50%;
   background-size: 150%;
   background-repeat: no-repeat;
