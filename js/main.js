@@ -48,7 +48,7 @@ const createFacts = (() => {
   };
   //    create random Name
   const createRandomName = async (numberOfStudent) => {
-    const response = await fetch("/data.json");
+    const response = await fetch("data.json");
     const namesArr = await response.json();
     const names = () => namesArr;
     const createdFirstNames = createRandomList(names, numberOfStudent);
